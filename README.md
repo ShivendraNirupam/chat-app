@@ -108,8 +108,4 @@ This project demonstrates:
 - Deployment using cloud services
 - WebSocket optimization for large-scale usage
 
----
 
-## License
-
-This project is open source and available under the MIT License.
