@@ -20,11 +20,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://chat-app-lupo.vercel.app/",
     credentials: true,
   })
 );
-console.log("API_ROUTE:", "http://localhost:5173");
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
